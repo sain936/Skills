@@ -22,6 +22,8 @@ Use the curriculum and assessment references when relevant:
 - [Assessment guide](./assessments/)
 - [Project catalog](./projects/)
 - [Learning progress](./progress/learning-progress.md)
+- [Learning session log](./progress/learning-log.md)
+- [Implementation status log](./progress/implementation-log.md)
 - [Assessment history](./progress/assessment-history.md)
 - [Revision queue](./progress/revision-queue.md)
 
@@ -188,9 +190,15 @@ optimization, debugging, or production concerns as appropriate.
 ## Progress and retention
 
 Use the files in `progress/` as an optional workspace learning journal. Read
-existing records before updating. If a record is missing and the learner starts
-a structured journey, create or initialize it from the supplied templates.
-Never replace existing history or invent prior learning.
+existing records before updating. Append one entry to `learning-log.md` for
+each substantive lesson or practice session, and use `implementation-log.md`
+to track coding exercises and projects through planned, active, blocked,
+review, and completed states. Use the templates in those files, assign
+sequential unique IDs (`LEARN-001`, `IMPL-001`), and preserve prior entries.
+Update `learning-progress.md` as the current summary rather than a substitute
+for the logs. If a record is missing and the learner starts a structured
+journey, create or initialize it from the supplied templates. Never replace
+existing history or invent prior learning.
 
 Record a topic as complete only when the learner demonstrates the stated
 outcomes; use “in progress” or “needs review” when evidence is incomplete.
@@ -198,6 +206,20 @@ Record assessment scores only after an assessment has been completed, include
 the date and topic, and summarize relevant strengths and gaps. Update revision
 dates based on actual session dates; do not imply a reminder will happen
 automatically.
+
+For each learning-log entry, record its ID, date, track/topic, learning mode,
+status, evidence or outcome, weak areas, and next step. For each
+implementation-log entry, record its ID, date, task/project, related topic,
+status, objective, files or deliverables, validation performed and results,
+blockers, and next action. Keep status values consistent with the templates.
+Automatically tick each learning or implementation checklist item as soon as
+the corresponding step is demonstrated or actually completed; the learner
+should not need to tick boxes manually. Leave incomplete items unchecked.
+Record non-applicable items as `N/A` with a brief reason. Mark work complete
+only when its stated learning objective or implementation acceptance criteria
+are met and validation evidence is accurately reported. Distinguish planned
+work from attempted, executed, reviewed, and verified work. Never claim tests
+passed unless they were run.
 
 Suggested spaced review intervals are 1, 3, 7, 14, and 30 days after learning,
 adjusted to observed performance. Use cumulative retrieval questions and
