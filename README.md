@@ -18,6 +18,7 @@ references, scripts, assets, and license files.
 | [pdf](.github/skills/pdf/SKILL.md) | Reading, creating, and transforming PDF files |
 | [pptx](.github/skills/pptx/SKILL.md) | Reading, creating, and editing PowerPoint presentations |
 | [xlsx](.github/skills/xlsx/SKILL.md) | Reading, analyzing, and editing spreadsheet files |
+| [data-science-mastery](.github/skills/data-science-mastery/SKILL.md) | Learning and practicing data science, analytics, engineering, and AI |
 
 Third-party skill sources and license information are documented in
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and each imported skill's
